@@ -16,6 +16,11 @@
 		D324934723C69DEB0049EE63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D324934523C69DEB0049EE63 /* LaunchScreen.storyboard */; };
 		D324935223C69DEB0049EE63 /* ImageProcessTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D324935123C69DEB0049EE63 /* ImageProcessTests.swift */; };
 		D324935D23C69DEB0049EE63 /* ImageProcessUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D324935C23C69DEB0049EE63 /* ImageProcessUITests.swift */; };
+		D324936B23C6D56D0049EE63 /* CaptureImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D324936A23C6D56D0049EE63 /* CaptureImageView.swift */; };
+		D324937123C7AC2C0049EE63 /* AnalysisResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D324937023C7AC2C0049EE63 /* AnalysisResultsView.swift */; };
+		D324937323C7B0A10049EE63 /* AnalysisContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = D324937223C7B0A10049EE63 /* AnalysisContext.swift */; };
+		D324937523C7B2D00049EE63 /* PhotoCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D324937423C7B2D00049EE63 /* PhotoCoordinator.swift */; };
+		D324937923C7CE860049EE63 /* AppContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = D324937823C7CE860049EE63 /* AppContext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,11 @@
 		D324935823C69DEB0049EE63 /* ImageProcessUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageProcessUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D324935C23C69DEB0049EE63 /* ImageProcessUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageProcessUITests.swift; sourceTree = "<group>"; };
 		D324935E23C69DEB0049EE63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D324936A23C6D56D0049EE63 /* CaptureImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureImageView.swift; sourceTree = "<group>"; };
+		D324937023C7AC2C0049EE63 /* AnalysisResultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalysisResultsView.swift; sourceTree = "<group>"; };
+		D324937223C7B0A10049EE63 /* AnalysisContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalysisContext.swift; sourceTree = "<group>"; };
+		D324937423C7B2D00049EE63 /* PhotoCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCoordinator.swift; sourceTree = "<group>"; };
+		D324937823C7CE860049EE63 /* AppContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppContext.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,11 +114,16 @@
 				D324933723C69DE70049EE63 /* AppDelegate.swift */,
 				D324933923C69DE70049EE63 /* SceneDelegate.swift */,
 				D324933E23C69DE70049EE63 /* ContentView.swift */,
+				D324936A23C6D56D0049EE63 /* CaptureImageView.swift */,
+				D324937423C7B2D00049EE63 /* PhotoCoordinator.swift */,
+				D324937023C7AC2C0049EE63 /* AnalysisResultsView.swift */,
+				D324937223C7B0A10049EE63 /* AnalysisContext.swift */,
 				D324934023C69DEB0049EE63 /* Assets.xcassets */,
 				D324934523C69DEB0049EE63 /* LaunchScreen.storyboard */,
 				D324934823C69DEB0049EE63 /* Info.plist */,
 				D324933B23C69DE70049EE63 /* ImageProcess.xcdatamodeld */,
 				D324934223C69DEB0049EE63 /* Preview Content */,
+				D324937823C7CE860049EE63 /* AppContext.swift */,
 			);
 			path = ImageProcess;
 			sourceTree = "<group>";
@@ -274,6 +289,11 @@
 				D324933823C69DE70049EE63 /* AppDelegate.swift in Sources */,
 				D324933F23C69DE70049EE63 /* ContentView.swift in Sources */,
 				D324933A23C69DE70049EE63 /* SceneDelegate.swift in Sources */,
+				D324937323C7B0A10049EE63 /* AnalysisContext.swift in Sources */,
+				D324936B23C6D56D0049EE63 /* CaptureImageView.swift in Sources */,
+				D324937123C7AC2C0049EE63 /* AnalysisResultsView.swift in Sources */,
+				D324937923C7CE860049EE63 /* AppContext.swift in Sources */,
+				D324937523C7B2D00049EE63 /* PhotoCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

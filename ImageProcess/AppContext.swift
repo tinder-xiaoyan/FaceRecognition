@@ -7,3 +7,8 @@
 //
 
 import Foundation
+
+final class AppContext {
+    static let shared: AppContext = .init()
+    lazy var analysisContext: AnalysisContext = .init()
+}
